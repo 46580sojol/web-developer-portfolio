@@ -1,0 +1,144 @@
+
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* shared style */
+  .text-primary{
+    color: rgb(255, 179, 0);
+  }
+
+  
+  .dark-2{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .dark-1{
+    color: #181818;
+
+  }
+  .dark-3{
+    color:#757575 ;
+  }
+
+  .btn-primary{
+    color: rgb(252, 255, 252);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 35px;
+    background-color: #FD6E0A;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px green;
+
+  }
+.secondary-bg{
+    background-color: #f9fdfc;
+}
+
+  /* header styles */
+  .header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left  , bottom right;
+  }
+
+
+/* nav style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10px 20px 200px;
+
+}
+ .nav-titel{
+    font-weight: 800;
+    font-size: 45px;
+    
+ }
+ nav ul{
+    display: flex;
+    align-items: center;
+    
+ }
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+ nav ul li a{
+    text-decoration: none;
+ }
+
+ /* banner styles */
+ .banner-gretting{
+    font-size: 45px;
+ }
+ .banner-titel{
+    font-size: 70px;
+    font-weight: 700;
+ }
+ .banner-discription{
+    font-size: 18px;
+    font-weight: normal;
+ }
+.banner-img{
+    width: 978px;
+}
+
+ .banner{
+    display: flex;
+    /* gap: 163px; */
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+ }
+ .banner .banner-contant{
+   max-width: 585px;
+ 
+ }
+
+
+ /* main style */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+
+/* about style */
+.about{
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 30px;
+}
+
+
+
+
+.section-titel{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+    font-weight:100px;
+}
+/* about items styles */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+
+
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
