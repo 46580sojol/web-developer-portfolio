@@ -158,3 +158,23 @@ nav ul li{
   border-radius: 10px;
   box-shadow: 0px 6px 50px 0px yellow;
 }
+
+/* resume section style  */
+.resume-container{
+  display: flex;
+  gap: 20px;
+  /* padding: 10px 308px 10px 500px; */
+}
+.resume-column{
+  margin: 0px 30px 0px 30px;
+}
+.resume-column-titel{
+  font-size: 30px;
+  font-weight: bold;
+}
+.cv{
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+}
+
