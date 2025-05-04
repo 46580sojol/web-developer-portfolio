@@ -36,6 +36,7 @@
     box-shadow: 5px 5px 10px green;
 
   }
+  
 .secondary-bg{
     background-color: #f9fdfc;
 }
@@ -45,6 +46,7 @@
 
   /* header styles */
   .header{
+    height: 711px;
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left  , bottom right;
@@ -91,7 +93,8 @@ nav ul li{
     font-weight: normal;
  }
 .banner-img{
-    width: 978px;
+    width: 496px;
+    height: 537px;
 }
 
  .banner{
@@ -102,6 +105,7 @@ nav ul li{
  }
  .banner .banner-contant{
    max-width: 585px;
+   max-height: 364px;
  
  }
 
@@ -178,3 +182,27 @@ nav ul li{
   justify-content: center;
 }
 
+/* footer style  */
+footer{
+  /* margin: 20px 50px; */
+  padding: 130px 230px 130px 230px ;
+  display: flex;
+  gap: 100px;
+
+}
+.footer-column{
+  width: 50%;
+}
+ footer input[type="text"],footer input[type="email"],footer textarea{
+  font-size: 16px;
+  background-color:#FFFFFF;
+  border-radius: 5px;
+  height: 64px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  padding-left: 20px;
+
+  
+}
