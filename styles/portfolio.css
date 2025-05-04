@@ -13,7 +13,7 @@
 
   
   .dark-2{
-    color: #474747;
+    color: #f7f2f2;
     font-size: 20px;
     font-weight: 700;
   }
@@ -38,7 +38,7 @@
   }
   
 .secondary-bg{
-    background-color: #f9fdfc;
+    background-color: #14634f;
 }
 .text-center {
   text-align: center;
@@ -46,7 +46,7 @@
 
   /* header styles */
   .header{
-    height: 711px;
+    height: 837px;
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left  , bottom right;
@@ -58,7 +58,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 10px 20px 200px;
+    margin: 10px 0px 0px 200px;
 
 }
  .nav-titel{
@@ -83,30 +83,38 @@ nav ul li{
  /* banner styles */
  .banner-gretting{
     font-size: 45px;
+    font-weight: 600;
+    color: #FD6E0A;
+    /* padding-top: 13px; */
  }
  .banner-titel{
     font-size: 70px;
     font-weight: 700;
+    /* padding-bottom: 10px; */
  }
  .banner-discription{
     font-size: 18px;
     font-weight: normal;
+    color: #FFFFFF;
  }
-.banner-img{
-    width: 496px;
-    height: 537px;
+.banner .banner-img{
+    width: 600px;
+    height: 685px;
 }
 
  .banner{
     display: flex;
-    /* gap: 163px; */
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin:0px 0px 100px 200px ;
+    
+    
  }
  .banner .banner-contant{
    max-width: 585px;
-   max-height: 364px;
- 
+   
+ }
+ .banner .banner-contant .banner-btn{
+  margin-bottom: 100px;
  }
 
 
